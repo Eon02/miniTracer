@@ -1,4 +1,4 @@
-My name is Haley Tarala and this is my HW1 raytracing project.
+My name is Haley and this is a small raytracing engine I created to learn more about computer graphics.
 
 To compile the raytracer, the command is:
 g++ raytracer.cpp -LGL -lGLEW -lglfw
