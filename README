@@ -1,0 +1,20 @@
+My name is Haley Tarala and this is my HW1 raytracing project.
+
+To compile the raytracer, the command is:
+g++ raytracer.cpp -LGL -lGLEW -lglfw
+
+The project relies on the linear algebra library Eigen, which can be found at https://eigen.tuxfamily.org/index.php?title=Main_Page
+
+When compiled, just type ./a.out <viewpoint>
+
+The available viewpoints are:
+default
+back
+right
+left
+top
+bottom
+corner
+
+If no viewpoint is chosen, the program will use the default viewpoint. Once the window opens,
+the arrow keys can be used to turn the camera and WASD can be used to move your viewpoint around.
